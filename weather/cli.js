@@ -24,7 +24,11 @@ const cli = meow({
 		'  Temperature: 32C'
 	]
 });
-
+/**
+* Converts Fahrenheit to Celcius
+* @constructor
+* @param {int} temp - The Fahrenheit temperature
+*/
 function _toCelcius(temp) {
 	return Math.round(((temp - 32) * 5) / 9);
 }
