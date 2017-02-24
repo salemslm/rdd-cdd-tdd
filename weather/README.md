@@ -1,10 +1,10 @@
 # cli-weather
 
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
 - [Introduction](#introduction)
 - [Parameters](#parameters)
-- [Licence](#how it works)
+- [Howi it works](#how it works)
   - [Example](#example)
 - [Methods](#methods)
 

@@ -32,7 +32,9 @@ function _toCelcius(temp) {
 updateNotifier({ pkg}).notify();
 
 
- 
+ /** this function take as parameter the text typed by the user on the consol.
+		 Then it will print the weather on the desired location.
+  */
 weather(cli.input, (err, result) => {
 	if (err) {
 		console.log(chalk.bold.red(err));

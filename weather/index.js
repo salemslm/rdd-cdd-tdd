@@ -3,7 +3,7 @@
 const YQL = require('yql');
 const _ = require('lodash');
 
-
+/** The exports allow to use this file and its methods onto other file. */
 module.exports = (opts, callback) => {
 	opts = opts || [];
 
