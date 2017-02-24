@@ -3,10 +3,10 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Introduction](#introduction)
-- [Parameters](#Parameters)
-- [Licence](#How it works)
-  - [Example](#Example)
-- [Methods](#Methods)
+- [Parameters](#parameters)
+- [Licence](#how it works)
+  - [Example](#example)
+- [Methods](#methods)
 
 
 ## Introduction

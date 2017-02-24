@@ -32,7 +32,7 @@ function _toCelcius(temp) {
 updateNotifier({ pkg}).notify();
 
 
-
+ 
 weather(cli.input, (err, result) => {
 	if (err) {
 		console.log(chalk.bold.red(err));
