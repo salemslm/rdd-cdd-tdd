@@ -31,16 +31,19 @@ function _toCelcius(temp) {
 
 updateNotifier({ pkg}).notify();
 
+
+
 weather(cli.input, (err, result) => {
 	if (err) {
 		console.log(chalk.bold.red(err));
 		process.exit(1);
 	}
 
-
+ // Retrieve weather
 	let condition = result.query.results.channel.item.condition.text;
 	let temperature;
 
+// Defining temperature according to user input
 	if (cli.input[2] && cli.input[2] === 'C') {
 		temperature = _toCelcius(result.query.results.channel.item.condition.temp) + 'C';
 	} else if (cli.input[2] && cli.input[2] === 'F') {
@@ -49,6 +52,7 @@ weather(cli.input, (err, result) => {
 		temperature = _toCelcius(result.query.results.channel.item.condition.temp) + 'C';
 	}
 
+// Defining default position.
 	let city = cli.input[0] ? cli.input[0] : 'Dhaka';
 	let country = cli.input[1] ? cli.input[1] : 'Bangladesh';
 
