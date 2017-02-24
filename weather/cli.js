@@ -37,6 +37,7 @@ weather(cli.input, (err, result) => {
 		process.exit(1);
 	}
 
+
 	let condition = result.query.results.channel.item.condition.text;
 	let temperature;
 

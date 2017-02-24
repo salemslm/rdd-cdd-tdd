@@ -24,7 +24,7 @@ You can have different parameters :
 The temperature is either C or F.
 C corresponds to Celcius and F to Fahrenheit.
 
-## How it workshop
+## How it works
 
 You must execute the file with the 3 parameters : nodejs cli.js <city> <country> <degree>
 
@@ -40,3 +40,5 @@ The result will be :
 
 
 ## Methods
+
+There are methods that you can use. 
