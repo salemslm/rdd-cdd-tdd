@@ -34,9 +34,9 @@ You must execute the file with the 3 parameters : nodejs cli.js "city" "country"
 If you tape :
 Nanterre France C
 The result will be :
-> Nanterre, France
-> Condition: Partly Cloudy
-> Temperature: 10C
+> Nanterre, France </Br>
+> Temperature: 10C</Br>
+> Condition: Partly Cloudy</Br>
 
 
 ## Methods
