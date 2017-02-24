@@ -51,6 +51,7 @@ weather(cli.input, (err, result) => {
 	let city = cli.input[0] ? cli.input[0] : 'Dhaka';
 	let country = cli.input[1] ? cli.input[1] : 'Bangladesh';
 
+
 	console.log(chalk.red(city + ', ' + country));
 	console.log(chalk.cyan('Condition: ' + chalk.yellow(condition)));
 	console.log(chalk.cyan('Temperature: ' + chalk.yellow(temperature)));
