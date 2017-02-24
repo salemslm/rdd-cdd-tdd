@@ -26,7 +26,11 @@ C corresponds to Celcius and F to Fahrenheit.
 
 ## How it works
 
-You must execute the file with the 3 parameters : nodejs cli.js "city" "country" "degree"
+You must execute the file with the 3 parameters :
+```
+nodejs cli.js "city" "country" "degree"
+```
+Don't type the apostrophs.
 
 
 
